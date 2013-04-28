@@ -1,0 +1,31 @@
+cd ..
+cd github
+cd gitTraining
+cls
+di
+dir
+cls
+git config --global user.email "bindhyeswari.mishra@gmail.com"
+git config --global user.name "Mishra"
+cls
+git add origin https://github.com/mishrab/session.git
+cls
+git clone https://github.com/mishrab/session.git
+cd session
+dir
+git push origin master
+git add changes.txt
+git diff
+cls
+git status
+git commit -m "first commit"
+git push origin master
+git log
+git diff
+git commit -m "second commit"
+git add .
+git status
+git commit -m "second commit"
+git push origin master
+cls
+doskey /history > commands.txt
