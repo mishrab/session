@@ -1,2 +1,5 @@
 12:46 PM 4/28/2013
 heroku development rescheduled
+
+12:49 PM 4/28/2013
+few more changes
